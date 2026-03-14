@@ -16,8 +16,7 @@ It connects directly to the HackerOne GraphQL API to fetch, filter, analyze, and
 
 Stop wasting time clicking through pages! Find the most generous, highly-responsive, and least-crowded programs in seconds.
 
-screenshot.png
-
+![H1 Collector Screenshot](screenshot.png)
 # Features
 
 - Deep Financial Metrics: Extracts "Total Paid", "Paid in Last 90 Days", and "Average Bounty" for every program.

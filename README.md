@@ -7,6 +7,8 @@
                                                                       
                           by: rv_u
 ```
+
+
 ## H-One Collector (HackerOne Recon Sniper)
 H1 Collector is a powerful, fast, and smart CLI tool designed specifically for Bug Bounty Hunters. It connects directly to the HackerOne GraphQL API to fetch, filter, analyze, and sort all public bug bounty programs based on real-time financial metrics, competition (90-day reports), and scope types (Wildcards, Mobile, Domains).
 
@@ -49,31 +51,31 @@ CSRF_TOKEN = "YOUR_CSRF_TOKEN_HERE"
 # Usage & Examples
 
 1. General Radar (Newest Programs):
-   Fetches all programs and sorts them from newest to oldest.
+Fetches all programs and sorts them from newest to oldest.
 ```
 python3 H-OneCollector.py
 ```
 
 2. The Scope Extractor (Instant Recon):
-  Extracts all eligible in-scope Wildcards and Domains for programm like "PayPal" and saves them into TXT files: (paypal_wildcards.txt).
+Extracts all eligible in-scope Wildcards and Domains for programm like "PayPal" and saves them into TXT files: (paypal_wildcards.txt).
 ```
 python H-OneCollector.py paypal
 ```
 
 3. Target Low-Competition Wildcards:
-   Finds all Wildcard programs and sorts them by the least amount of reports submitted in the last 90 days.
+Finds all Wildcard programs and sorts them by the least amount of reports submitted in the last 90 days.
 ```
 python H-OneCollector.py -w -c least
 ```
 
 4. The "High Payer" Filter:
-   Finds programs that pay bounties (-B), have an average bounty of at least $1000 (-b 1000), and sorts them by the best response efficiency (-c eff).
+Finds programs that pay bounties (-B), have an average bounty of at least $1000 (-b 1000), and sorts them by the best response efficiency (-c eff).
 ```
 python hone.py -B -b 1000 -c eff
 ```
 
 5. VDP / Reputation Hunting:
-   Finds programs that DO NOT pay money (VDP) but have Wildcards, perfect for building reputation.
+Finds programs that DO NOT pay money (VDP) but have Wildcards, perfect for building reputation.
 ```
 python H-OneCollector.py -V -w -c least
 ```

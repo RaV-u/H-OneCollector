@@ -16,6 +16,8 @@ It connects directly to the HackerOne GraphQL API to fetch, filter, analyze, and
 
 Stop wasting time clicking through pages! Find the most generous, highly-responsive, and least-crowded programs in seconds.
 
+
+
 # Features
 
 - Deep Financial Metrics: Extracts "Total Paid", "Paid in Last 90 Days", and "Average Bounty" for every program.
@@ -73,7 +75,7 @@ python3 H-OneCollector.py
 
 2. The Scope Extractor (Instant Recon):
 
-Extracts all eligible in-scope Wildcards and Domains for programm like "PayPal" and saves them into TXT files: (paypal_wildcards.txt).
+Extracts all eligible in-scope Wildcards and Domains for your target like "PayPal" and saves them into TXT files: (paypal_wildcards.txt).
 ```
 python H-OneCollector.py paypal
 ```

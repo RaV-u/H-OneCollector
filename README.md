@@ -16,7 +16,7 @@ It connects directly to the HackerOne GraphQL API to fetch, filter, analyze, and
 
 Stop wasting time clicking through pages! Find the most generous, highly-responsive, and least-crowded programs in seconds.
 
-
+screenshot.png
 
 # Features
 

@@ -10,7 +10,9 @@
 
 
 ## H-One Collector (HackerOne Recon Sniper)
-H1 Collector is a powerful, fast, and smart CLI tool designed specifically for Bug Bounty Hunters. It connects directly to the HackerOne GraphQL API to fetch, filter, analyze, and sort all public bug bounty programs based on real-time financial metrics, competition (90-day reports), and scope types (Wildcards, Mobile, Domains).
+H1 Collector is a powerful, fast, and smart CLI tool designed specifically for Bug Bounty Hunters.
+
+It connects directly to the HackerOne GraphQL API to fetch, filter, analyze, and sort all public bug bounty programs based on real-time financial metrics, competition (90-day reports), and scope types (Wildcards, Mobile, Domains).
 
 Stop wasting time clicking through pages! Find the most generous, highly-responsive, and least-crowded programs in seconds.
 
@@ -87,7 +89,7 @@ python H-OneCollector.py -w -c least
 
 Finds programs that pay bounties (-B), have an average bounty of at least $1000 (-b 1000), and sorts them by the best response efficiency (-c eff).
 ```
-python hone.py -B -b 1000 -c eff
+python H-OneCollector.py -B -b 1000 -c eff
 ```
 
 5. VDP / Reputation Hunting:
